@@ -167,8 +167,10 @@ html, body {
 
 .submenu{
   display: none;
+  flex-direction: column;
 }
 
 .menu li:hover .submenu {
-  display: block;
-}.
+  display: flex;
+  flex-direction: column;
+}
